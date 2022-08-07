@@ -105,6 +105,4 @@ tidydata <- data_mean_std %>%
   summarise(across(everything(), mean))
 
 # write the new data as a text file  
-write.table(tidydata, file = "tidydata.txt")
-
-
+write.table(tidydata, file = "tidydata.txt", row.name=FALSE)
