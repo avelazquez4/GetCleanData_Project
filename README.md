@@ -1,5 +1,5 @@
 
-##Coursera - Getting and Cleaning Data - Project
+## Coursera - Getting and Cleaning Data - Project
 
 This is the project for the Getting and Cleaning Data course in Coursera. The R script `run_analysis.R` loads, cleans, and combines several data sets relating to wearable technology and creates a new tidy data set. The following steps outline the analysis in the r script. 
 

@@ -1,15 +1,7 @@
----
-title: "Codebook"
-author: "Anne Velazquez"
-date: "`r Sys.Date()`"
-output: html_document
-editor_options: 
-  chunk_output_type: console
----
+## CodeBook
 
-##CodeBook
+### Source Data Information
 
-###Source Data Information
 This codebook corresponds with the data in the file `tidydata.txt`.
 
 The data in this analysis represents data collected from the accelerometers from the Samsung Galaxy S smartphone. The data was collected from a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.  
@@ -25,10 +17,11 @@ These signals were used to estimate variables of the feature vector for each pat
 
 The `tidydata.txt` data set only contains measurements on the mean and standard deviation for each measurement. The final data set contains the mean value of each measurement for each subject and each activity. 
 
-###Variables
- [1] "Subject" - Identifies each subject in the data set
+### Variables
+
+ [1] "Subject" - Identifies each subject in the data set      
  [2] "Activity_Label" - the description of the activity measured                 
- [3] "Activity" - the activity code that corresponds to the activity type
+ [3] "Activity" - the activity code that corresponds to the activity type     
  [4] "tBodyAcc-mean()-X"                   
  [5] "tBodyAcc-mean()-Y"                   
  [6] "tBodyAcc-mean()-Z"                   
@@ -45,7 +38,7 @@ The `tidydata.txt` data set only contains measurements on the mean and standard 
 [17] "tBodyGyroJerk-mean()-Y"              
 [18] "tBodyGyroJerk-mean()-Z"              
 [19] "tBodyAccMag-mean()"                  
-[20] "tGravityAccMag-mean()"
+[20] "tGravityAccMag-mean()"      
 [21] "tBodyAccJerkMag-mean()"              
 [22] "tBodyGyroMag-mean()"                 
 [23] "tBodyGyroJerkMag-mean()"             
@@ -63,7 +56,7 @@ The `tidydata.txt` data set only contains measurements on the mean and standard 
 [35] "fBodyAccJerk-meanFreq()-Z"           
 [36] "fBodyGyro-mean()-X"                  
 [37] "fBodyGyro-mean()-Y"                  
-[38] "fBodyGyro-mean()-Z" 
+[38] "fBodyGyro-mean()-Z"        
 [39] "fBodyGyro-meanFreq()-X"              
 [40] "fBodyGyro-meanFreq()-Y"              
 [41] "fBodyGyro-meanFreq()-Z"              
@@ -76,9 +69,9 @@ The `tidydata.txt` data set only contains measurements on the mean and standard 
 [48] "fBodyBodyGyroJerkMag-mean()"         
 [49] "fBodyBodyGyroJerkMag-meanFreq()"     
 [50] "angle(tBodyAccMean,gravity)"         
-[51] "angle(tBodyAccJerkMean),gravityMean)"
-[52] "angle(tBodyGyroMean,gravityMean)"    
-[53] "angle(tBodyGyroJerkMean,gravityMean)"
+[51] "angle(tBodyAccJerkMean),gravityMean)"       
+[52] "angle(tBodyGyroMean,gravityMean)"          
+[53] "angle(tBodyGyroJerkMean,gravityMean)"      
 [54] "angle(X,gravityMean)"                
 [55] "angle(Y,gravityMean)"                
 [56] "angle(Z,gravityMean)"                
